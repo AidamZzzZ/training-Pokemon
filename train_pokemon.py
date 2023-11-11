@@ -11,6 +11,7 @@ for power in powers:
     if mini == 0 and maxi == 0:
         mini, maxi = powers[0], powers[0]
         print(mini,maxi)
+    #si no se muestran los pokemones del poder maximo al minimo
     else:
         mini = min(mini,power)
         maxi = max(maxi,power)
